@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Recipe from "./Recipe";
 import { Navbar, Nav, Button, FormControl, Form } from "react-bootstrap";
+
+import MadeWithLove from "react-made-with-love";
+
 import "./App.css";
 
 const App = () => {
@@ -63,6 +66,9 @@ const App = () => {
           />
         ))}
       </div>
+      <div align="center" >
+          <MadeWithLove by="Rafli Ramadhan" emoji />
+        </div>
     </div>
   );
 };
